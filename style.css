@@ -1,0 +1,48 @@
+:root { --bg:#07070d; --text:#e8ecff; --dim:#9aa3c0; --good:#8affc1; }
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 48px 20px 80px;
+  background: var(--bg); color: var(--text);
+  font: 16px/1.65 -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+main { max-width: 640px; margin: 0 auto; }
+h1 { font-size: 30px; letter-spacing: .06em; margin: 0 0 4px; }
+h1 span { color: var(--good); }
+h2 { font-size: 15px; letter-spacing: .14em; text-transform: uppercase;
+     color: var(--dim); margin: 38px 0 10px; font-weight: 800; }
+p, li { color: #c9d0e6; }
+a { color: var(--good); }
+.sub { color: var(--dim); letter-spacing: .18em; text-transform: uppercase;
+       font-size: 11px; font-weight: 800; margin: 0 0 34px; }
+.card { border: 1px solid #ffffff14; border-radius: 16px; padding: 20px 22px;
+        background: #ffffff08; margin: 16px 0; }
+.big { font-size: 19px; color: var(--text); margin: 0; }
+footer { margin-top: 54px; color: var(--dim); font-size: 13px; }
+footer a { margin-right: 18px; }
+svg { display: block; margin: 0 auto 26px; }
+
+/* ---- studio home ---- */
+.hero { text-align: center; margin-bottom: 46px; }
+.hero h1 { font-size: 34px; letter-spacing: .14em; }
+.hero h1 span { color: var(--good); }
+.hero p { color: var(--dim); margin: 6px 0 0; }
+.tag { display: inline-block; font-size: 11px; letter-spacing: .18em; text-transform: uppercase;
+       font-weight: 800; color: var(--dim); margin-bottom: 8px; }
+.tag.now { color: #38e8ff; }
+.tag.done { color: var(--good); }
+.tag.toy { color: #ffe36e; }
+.card h3 { margin: 0 0 6px; font-size: 21px; letter-spacing: .02em; }
+.card h3 a { color: var(--text); text-decoration: none; }
+.card h3 a:hover { color: var(--good); }
+.card p { margin: 0 0 10px; }
+.links a { margin-right: 16px; white-space: nowrap; }
+.games .card { padding: 16px 20px; }
+.games .card h3 { font-size: 17px; }
+.games .card p { color: var(--dim); font-size: 15px; margin: 0 0 6px; }
+.follow { display: flex; flex-wrap: wrap; gap: 10px 22px; }
+.ru { color: var(--dim); font-size: 14px; }
+@media (max-width: 480px) {
+  .hero h1 { font-size: 26px; letter-spacing: .1em; }
+  h1 { font-size: 26px; }
+}

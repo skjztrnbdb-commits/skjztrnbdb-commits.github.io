@@ -1,0 +1,9 @@
+{
+  "name": "Button",
+  "short_name": "Button",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0b12",
+  "theme_color": "#0b0b12"
+}
