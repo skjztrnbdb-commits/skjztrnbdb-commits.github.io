@@ -42,6 +42,7 @@ svg { display: block; margin: 0 auto 26px; }
 .games .card p { color: var(--dim); font-size: 15px; margin: 0 0 6px; }
 .follow { display: flex; flex-wrap: wrap; gap: 10px 22px; }
 .ru { color: var(--dim); font-size: 14px; }
+.note { color: var(--dim); font-size: 14px; }
 @media (max-width: 480px) {
   .hero h1 { font-size: 26px; letter-spacing: .1em; }
   h1 { font-size: 26px; }
